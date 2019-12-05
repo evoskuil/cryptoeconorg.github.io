@@ -10,7 +10,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     color: #d8d8d8;
-    background: url('/images/background.jpg');
+    background: url('../images/background.jpg');
     -webkit-font-smoothing: antialiased;
 }
 @font-face {
@@ -30,7 +30,7 @@ header .background {
     right: 0;
     height: 600px;
     opacity: 0.80;
-    background: url('/images/header.jpg');
+    background: url('../images/header.jpg');
     background-position: center;
     z-index: -1000;
     background-size: cover;
@@ -51,9 +51,13 @@ header .title {
     text-align: center;
     color: #ffffff;
 }
-header .button {
+
+/*       Button       */
+.button {
     text-align: center;
     margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: block;
     text-decoration: none;
     color: #ffffff;
@@ -63,8 +67,8 @@ header .button {
     width: 200px;
     transition: box-shadow 0.25s;
 }
-header .button:hover,
-header .button:focus {
+.button:hover,
+.button:focus {
     color: #0E0E0E;
     box-shadow: inset 210px 0 0 0 #ffffff;
 }
@@ -162,7 +166,7 @@ header .button:focus {
     margin-top: 5px;
 }
 
-/*       Agenda Item       */
+/*       Syllabus Item       */
 .day-title {
     display: inline-block;
     font-size: 24px;
@@ -241,12 +245,12 @@ footer {
 
 @media only screen and (max-width: 1400px) {
     .section.first {
-        margin-top: 150px;
+        margin-top: 500px;
     }
 }
 
 @media only screen and (max-width: 950px) {
-    .row.about {
+    .row.block {
         display: block;
     }
     .row-column {
