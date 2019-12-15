@@ -2,7 +2,7 @@
     <head>
         <title>CryptoEcon 2020</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
 
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
@@ -37,12 +37,12 @@
          <div class="section">
             <div class="title">Venue</div>
             <div class="content">
-                <div align="center" style="margin-top:50px">
+                <div class="center-margin">
                     <a href="https://www.facebook.com/CavemanCustomHanoi" target="_blank">
-                        <img src="images/venue.jpg" class="row-img" style="max-width:100%;border:1px solid #af8e4d" alt="Caveman Custom Cycles">
+                        <img src="images/venue.jpg" class="row-img" alt="Caveman Custom Cycles">
                     </a>
                 </div>
-                <div class="address" align="center" style="margin-top:50px">
+                <div class="center-margin address">
                     <a href="https://goo.gl/maps/QUqXbxFjJBDZeARs5" target="_blank">Caveman Custom Cycles</a><br>
                     Ngo 41 Tay Ho Street<br>
                     Hanoi, Vietnam
@@ -333,16 +333,15 @@
                     <p>
                         By invitation only. A 1 night train ride, a 9 day motorcycle ride, and a 2 day boat ride. See <a href="https://bitbikers.org/" target="blank_">Bitbikers</a> for more information.
                     </p>
-                    <div align="center" style="margin:50px">
-                        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FCavemanCustomHanoi%2Fvideos%2F943236549379229%2F&show_text=0&width=560"
-                            width="560"
-                            height="315"
-                            style="border:none;overflow:hidden;max-width:100%"
-                            scrolling="no"
-                            frameborder="0"
-                            allowTransparency="true"
-                            allowFullScreen="true">
-                        </iframe>
+                    <div class="center-margin embed">
+                        <div class="iframe-container">
+                            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FCavemanCustomHanoi%2Fvideos%2F943236549379229%2F&show_text=0&width=560"
+                                scrolling="no"
+                                allowTransparency="true"
+                                allowFullScreen="true"
+                                class="row-img">
+                            </iframe>
+                        </div>
                     </div>
                 </div>
                 <div class="event">
@@ -350,10 +349,10 @@
                     <p>
                         For speakers, organizers and by invitation as available. A fancy bus ride to Ha Long Bay for an overnight cruise.
                     </p>
-                    <div align="center" style="margin:50px">
-                        <img src="images/boat-deck.jpg" style="width:200;border:1px solid #af8e4d;margin:15" alt="Boat Deck">
-                        <img src="images/boat-dinner.jpg" style="width:200;border:1px solid #af8e4d;margin:15" alt="Boat Dinner">
-                        <img src="images/boat-bed.jpg" style="width:200;border:1px solid #af8e4d;margin:15" alt="Boat Bed">
+                    <div class="center-margin">
+                        <img src="images/boat-deck.jpg" class="cruise-img" alt="Boat Deck">
+                        <img src="images/boat-dinner.jpg" class="cruise-img" alt="Boat Dinner">
+                        <img src="images/boat-bed.jpg" class="cruise-img" alt="Boat Bed">
                     </div>
                 </div>
             </div>
@@ -376,7 +375,7 @@
                         hotel to the event, a 5 minute walk.
                     </p>
                 </div>
-                <div class="hotel" style="margin-top:25">
+                <div class="hotel">
                     <p><a href="http://hanoi.intercontinental.com/" target="blank_">InterContinental Hanoi Westlake</a></p>
                     <p><i>
                         The new InterContinental Westlake Hanoi overlooks the 800-year-old Golden Lotus Pagoda on Hanoi's largest lake.
@@ -389,7 +388,7 @@
                         target="blank_">Trip Advisor rating</a>, with a 25 minute walk or 10 minute drive to the event.
                     </p>
                 </div>
-                <div class="hotel" style="margin-top:25">
+                <div class="hotel">
                     <p><a href="https://www.marriott.com/hotels/travel/hanhs-sheraton-hanoi-hotel/" target="blank_">Sheraton Hanoi</a></p>
                     <p><i>
                         Situated on the shores of Hanoi's West Lake and surrounded by its many local attractions, Sheraton Hanoi Hotel is just
@@ -438,11 +437,8 @@
                         works well though the app takes a little getting used to. Payment by cash is easy. Keep in mind that VND 1,000 is worth about $0.04,
                         so don't sweat the change too much (though drivers are professional and will attempt to give you exact change).
                     </p>
-                    <div align="center" style="margin:30px">
+                    <div class="map">
                         <iframe src="https://www.google.com/maps/d/embed?mid=1QsKbw9nMB1ddXSUi8Modo0i5HZ3KmiXg&z=15"
-                            width="560"
-                            height="560"
-                            style="border:none;overflow:hidden;max-width:100%"
                             scrolling="no"
                             frameborder="0"
                             allowTransparency="true"
@@ -507,7 +503,7 @@
                         </span>
                     </a>
                 </div>
-                <hr>
+                <hr class="divider">
                 <!-- TODO: scale down image size for second tier sponsors, color divider. -->
                 <div class="sponsors">
                     <a class="sponsor" href="https://hodlhodl.com/" target="_blank">
@@ -537,7 +533,7 @@
                         <img src="images/sponsors/upstreamdata.png" srcset="images/sponsors/upstreamdata.png 5x" alt="Upstream Data">
                     </a>
                 </div>
-                <hr>
+                <hr class="divider">
                 <!-- TODO: scale down image size for third tier sponsors, color divider. -->
                 <div class="sponsors">
                     <a class="sponsor" href="https://www.facebook.com/BlockchainMeetupHanoi/" target="_blank">
@@ -559,7 +555,7 @@
             </div>
         </div>
 
-        <footer style="font-size:75%">
+        <footer>
             <p>
                 Crytoecon does not stipulate a code of conduct. For guidance we suggest the
                 <a href="https://en.wikipedia.org/wiki/Golden_Rule" target="blank_">Golden Rule</a>.<br>
